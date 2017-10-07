@@ -9,9 +9,7 @@
 
 ## 效果图
 
-![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_2.PNG)
-
-![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_3.PNG)
+![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_2.PNG)     ![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_3.PNG)
 
 ## 涉及涉及知识点：
 * 二维码扫描
