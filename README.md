@@ -11,7 +11,7 @@
 
 ![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_2.PNG)     ![](https://github.com/Korune/KO_QRCodeScanDemo/blob/master/Screenshots/IMG_3.PNG)
 
-## 涉及涉及知识点：
+## 涉及知识点：
 * 二维码扫描
 * 扫描线动画
 * 扫描成功后播放提示音
