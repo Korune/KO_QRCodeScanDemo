@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0C081C1F87813A00360A67 /* KOFinderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C081B1F87813A00360A67 /* KOFinderView.m */; };
+		5D2FBC231F87B3F7001CD63D /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C081D1F87ACEE00360A67 /* ding.wav */; };
+		5D6D22A81F88641000B22DE1 /* IMG_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5D6D22A51F88641000B22DE1 /* IMG_1.PNG */; };
+		5D6D22A91F88641000B22DE1 /* IMG_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5D6D22A61F88641000B22DE1 /* IMG_2.PNG */; };
+		5D6D22AA1F88641000B22DE1 /* IMG_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5D6D22A71F88641000B22DE1 /* IMG_3.PNG */; };
+		5D6D22AD1F8865FD00B22DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6D22AB1F8865FC00B22DE1 /* LaunchScreen.storyboard */; };
 		5D7861BF1F5BB4EA0060090B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7861BE1F5BB4EA0060090B /* main.m */; };
 		5D7861C21F5BB4EA0060090B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7861C11F5BB4EA0060090B /* AppDelegate.m */; };
 		5D7861C51F5BB4EA0060090B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7861C41F5BB4EA0060090B /* ViewController.m */; };
 		5D7861C81F5BB4EA0060090B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861C61F5BB4EA0060090B /* Main.storyboard */; };
 		5D7861CA1F5BB4EA0060090B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861C91F5BB4EA0060090B /* Assets.xcassets */; };
-		5D7861CD1F5BB4EA0060090B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861CB1F5BB4EA0060090B /* LaunchScreen.storyboard */; };
 		5D7861D81F5BB4EA0060090B /* KO_QRCodeScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7861D71F5BB4EA0060090B /* KO_QRCodeScanDemoTests.m */; };
 		5D7861E31F5BB4EA0060090B /* KO_QRCodeScanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7861E21F5BB4EA0060090B /* KO_QRCodeScanDemoUITests.m */; };
+		5D78620A1F5BB8D80060090B /* qr_bottom_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FA1F5BB8D80060090B /* qr_bottom_left@2x.png */; };
+		5D78620B1F5BB8D80060090B /* qr_bottom_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FB1F5BB8D80060090B /* qr_bottom_left@3x.png */; };
+		5D78620C1F5BB8D80060090B /* qr_bottom_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FC1F5BB8D80060090B /* qr_bottom_right@2x.png */; };
+		5D78620D1F5BB8D80060090B /* qr_bottom_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FD1F5BB8D80060090B /* qr_bottom_right@3x.png */; };
+		5D78620E1F5BB8D80060090B /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FE1F5BB8D80060090B /* qr_scan_line@2x.png */; };
+		5D78620F1F5BB8D80060090B /* qr_scan_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7861FF1F5BB8D80060090B /* qr_scan_line@3x.png */; };
+		5D7862101F5BB8D80060090B /* qr_top_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862001F5BB8D80060090B /* qr_top_left@2x.png */; };
+		5D7862111F5BB8D80060090B /* qr_top_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862011F5BB8D80060090B /* qr_top_left@3x.png */; };
+		5D7862121F5BB8D80060090B /* qr_top_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862021F5BB8D80060090B /* qr_top_right@2x.png */; };
+		5D7862131F5BB8D80060090B /* qr_top_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862031F5BB8D80060090B /* qr_top_right@3x.png */; };
+		5D7862141F5BB8D80060090B /* qr_vc_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862041F5BB8D80060090B /* qr_vc_left@2x.png */; };
+		5D7862151F5BB8D80060090B /* qr_vc_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862051F5BB8D80060090B /* qr_vc_left@3x.png */; };
+		5D7862161F5BB8D80060090B /* qr_vc_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862061F5BB8D80060090B /* qr_vc_right@2x.png */; };
+		5D7862171F5BB8D80060090B /* qr_vc_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7862071F5BB8D80060090B /* qr_vc_right@3x.png */; };
+		5D7862181F5BB8D80060090B /* KO_QRCodeScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7862091F5BB8D80060090B /* KO_QRCodeScanController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0C081A1F87813A00360A67 /* KOFinderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOFinderView.h; sourceTree = "<group>"; };
+		5D0C081B1F87813A00360A67 /* KOFinderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOFinderView.m; sourceTree = "<group>"; };
+		5D0C081D1F87ACEE00360A67 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		5D6D22A51F88641000B22DE1 /* IMG_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1.PNG; sourceTree = "<group>"; };
+		5D6D22A61F88641000B22DE1 /* IMG_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2.PNG; sourceTree = "<group>"; };
+		5D6D22A71F88641000B22DE1 /* IMG_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3.PNG; sourceTree = "<group>"; };
+		5D6D22AC1F8865FC00B22DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7861BA1F5BB4EA0060090B /* KO_QRCodeScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KO_QRCodeScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7861BE1F5BB4EA0060090B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D7861C01F5BB4EA0060090B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +70,6 @@
 		5D7861C41F5BB4EA0060090B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D7861C71F5BB4EA0060090B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D7861C91F5BB4EA0060090B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5D7861CC1F5BB4EA0060090B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7861CE1F5BB4EA0060090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7861D31F5BB4EA0060090B /* KO_QRCodeScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KO_QRCodeScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7861D71F5BB4EA0060090B /* KO_QRCodeScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KO_QRCodeScanDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +77,22 @@
 		5D7861DE1F5BB4EA0060090B /* KO_QRCodeScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KO_QRCodeScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7861E21F5BB4EA0060090B /* KO_QRCodeScanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KO_QRCodeScanDemoUITests.m; sourceTree = "<group>"; };
 		5D7861E41F5BB4EA0060090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7861FA1F5BB8D80060090B /* qr_bottom_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_bottom_left@2x.png"; sourceTree = "<group>"; };
+		5D7861FB1F5BB8D80060090B /* qr_bottom_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_bottom_left@3x.png"; sourceTree = "<group>"; };
+		5D7861FC1F5BB8D80060090B /* qr_bottom_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_bottom_right@2x.png"; sourceTree = "<group>"; };
+		5D7861FD1F5BB8D80060090B /* qr_bottom_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_bottom_right@3x.png"; sourceTree = "<group>"; };
+		5D7861FE1F5BB8D80060090B /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		5D7861FF1F5BB8D80060090B /* qr_scan_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@3x.png"; sourceTree = "<group>"; };
+		5D7862001F5BB8D80060090B /* qr_top_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_top_left@2x.png"; sourceTree = "<group>"; };
+		5D7862011F5BB8D80060090B /* qr_top_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_top_left@3x.png"; sourceTree = "<group>"; };
+		5D7862021F5BB8D80060090B /* qr_top_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_top_right@2x.png"; sourceTree = "<group>"; };
+		5D7862031F5BB8D80060090B /* qr_top_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_top_right@3x.png"; sourceTree = "<group>"; };
+		5D7862041F5BB8D80060090B /* qr_vc_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_vc_left@2x.png"; sourceTree = "<group>"; };
+		5D7862051F5BB8D80060090B /* qr_vc_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_vc_left@3x.png"; sourceTree = "<group>"; };
+		5D7862061F5BB8D80060090B /* qr_vc_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_vc_right@2x.png"; sourceTree = "<group>"; };
+		5D7862071F5BB8D80060090B /* qr_vc_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_vc_right@3x.png"; sourceTree = "<group>"; };
+		5D7862081F5BB8D80060090B /* KO_QRCodeScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KO_QRCodeScanController.h; sourceTree = "<group>"; };
+		5D7862091F5BB8D80060090B /* KO_QRCodeScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KO_QRCodeScanController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +120,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D6D22A41F88641000B22DE1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5D6D22A51F88641000B22DE1 /* IMG_1.PNG */,
+				5D6D22A61F88641000B22DE1 /* IMG_2.PNG */,
+				5D6D22A71F88641000B22DE1 /* IMG_3.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		5D7861B11F5BB4EA0060090B = {
 			isa = PBXGroup;
 			children = (
+				5D6D22A41F88641000B22DE1 /* Screenshots */,
 				5D7861BC1F5BB4EA0060090B /* KO_QRCodeScanDemo */,
 				5D7861D61F5BB4EA0060090B /* KO_QRCodeScanDemoTests */,
 				5D7861E11F5BB4EA0060090B /* KO_QRCodeScanDemoUITests */,
@@ -103,13 +156,11 @@
 			children = (
 				5D7861C01F5BB4EA0060090B /* AppDelegate.h */,
 				5D7861C11F5BB4EA0060090B /* AppDelegate.m */,
+				5D7861C61F5BB4EA0060090B /* Main.storyboard */,
+				5D7861F81F5BB8D80060090B /* QRCodeScan */,
+				5D7861BD1F5BB4EA0060090B /* Supporting Files */,
 				5D7861C31F5BB4EA0060090B /* ViewController.h */,
 				5D7861C41F5BB4EA0060090B /* ViewController.m */,
-				5D7861C61F5BB4EA0060090B /* Main.storyboard */,
-				5D7861C91F5BB4EA0060090B /* Assets.xcassets */,
-				5D7861CB1F5BB4EA0060090B /* LaunchScreen.storyboard */,
-				5D7861CE1F5BB4EA0060090B /* Info.plist */,
-				5D7861BD1F5BB4EA0060090B /* Supporting Files */,
 			);
 			path = KO_QRCodeScanDemo;
 			sourceTree = "<group>";
@@ -117,6 +168,9 @@
 		5D7861BD1F5BB4EA0060090B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D6D22AB1F8865FC00B22DE1 /* LaunchScreen.storyboard */,
+				5D7861CE1F5BB4EA0060090B /* Info.plist */,
+				5D7861C91F5BB4EA0060090B /* Assets.xcassets */,
 				5D7861BE1F5BB4EA0060090B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +192,40 @@
 				5D7861E41F5BB4EA0060090B /* Info.plist */,
 			);
 			path = KO_QRCodeScanDemoUITests;
+			sourceTree = "<group>";
+		};
+		5D7861F81F5BB8D80060090B /* QRCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C081D1F87ACEE00360A67 /* ding.wav */,
+				5D7861F91F5BB8D80060090B /* images */,
+				5D7862081F5BB8D80060090B /* KO_QRCodeScanController.h */,
+				5D7862091F5BB8D80060090B /* KO_QRCodeScanController.m */,
+				5D0C081A1F87813A00360A67 /* KOFinderView.h */,
+				5D0C081B1F87813A00360A67 /* KOFinderView.m */,
+			);
+			path = QRCodeScan;
+			sourceTree = "<group>";
+		};
+		5D7861F91F5BB8D80060090B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5D7861FA1F5BB8D80060090B /* qr_bottom_left@2x.png */,
+				5D7861FB1F5BB8D80060090B /* qr_bottom_left@3x.png */,
+				5D7861FC1F5BB8D80060090B /* qr_bottom_right@2x.png */,
+				5D7861FD1F5BB8D80060090B /* qr_bottom_right@3x.png */,
+				5D7861FE1F5BB8D80060090B /* qr_scan_line@2x.png */,
+				5D7861FF1F5BB8D80060090B /* qr_scan_line@3x.png */,
+				5D7862001F5BB8D80060090B /* qr_top_left@2x.png */,
+				5D7862011F5BB8D80060090B /* qr_top_left@3x.png */,
+				5D7862021F5BB8D80060090B /* qr_top_right@2x.png */,
+				5D7862031F5BB8D80060090B /* qr_top_right@3x.png */,
+				5D7862041F5BB8D80060090B /* qr_vc_left@2x.png */,
+				5D7862051F5BB8D80060090B /* qr_vc_left@3x.png */,
+				5D7862061F5BB8D80060090B /* qr_vc_right@2x.png */,
+				5D7862071F5BB8D80060090B /* qr_vc_right@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +295,8 @@
 				TargetAttributes = {
 					5D7861B91F5BB4EA0060090B = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 433YA7QJNE;
+						ProvisioningStyle = Automatic;
 					};
 					5D7861D21F5BB4EA0060090B = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -246,9 +335,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7861CD1F5BB4EA0060090B /* LaunchScreen.storyboard in Resources */,
+				5D6D22A81F88641000B22DE1 /* IMG_1.PNG in Resources */,
+				5D78620F1F5BB8D80060090B /* qr_scan_line@3x.png in Resources */,
+				5D6D22A91F88641000B22DE1 /* IMG_2.PNG in Resources */,
+				5D78620C1F5BB8D80060090B /* qr_bottom_right@2x.png in Resources */,
+				5D78620B1F5BB8D80060090B /* qr_bottom_left@3x.png in Resources */,
 				5D7861CA1F5BB4EA0060090B /* Assets.xcassets in Resources */,
+				5D7862151F5BB8D80060090B /* qr_vc_left@3x.png in Resources */,
+				5D2FBC231F87B3F7001CD63D /* ding.wav in Resources */,
+				5D7862141F5BB8D80060090B /* qr_vc_left@2x.png in Resources */,
+				5D7862161F5BB8D80060090B /* qr_vc_right@2x.png in Resources */,
+				5D7862171F5BB8D80060090B /* qr_vc_right@3x.png in Resources */,
+				5D78620D1F5BB8D80060090B /* qr_bottom_right@3x.png in Resources */,
+				5D7862121F5BB8D80060090B /* qr_top_right@2x.png in Resources */,
 				5D7861C81F5BB4EA0060090B /* Main.storyboard in Resources */,
+				5D7862131F5BB8D80060090B /* qr_top_right@3x.png in Resources */,
+				5D6D22AA1F88641000B22DE1 /* IMG_3.PNG in Resources */,
+				5D7862111F5BB8D80060090B /* qr_top_left@3x.png in Resources */,
+				5D78620E1F5BB8D80060090B /* qr_scan_line@2x.png in Resources */,
+				5D6D22AD1F8865FD00B22DE1 /* LaunchScreen.storyboard in Resources */,
+				5D7862101F5BB8D80060090B /* qr_top_left@2x.png in Resources */,
+				5D78620A1F5BB8D80060090B /* qr_bottom_left@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +382,8 @@
 			files = (
 				5D7861C51F5BB4EA0060090B /* ViewController.m in Sources */,
 				5D7861C21F5BB4EA0060090B /* AppDelegate.m in Sources */,
+				5D7862181F5BB8D80060090B /* KO_QRCodeScanController.m in Sources */,
+				5D0C081C1F87813A00360A67 /* KOFinderView.m in Sources */,
 				5D7861BF1F5BB4EA0060090B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,20 +420,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5D6D22AB1F8865FC00B22DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D6D22AC1F8865FC00B22DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		5D7861C61F5BB4EA0060090B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5D7861C71F5BB4EA0060090B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5D7861CB1F5BB4EA0060090B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D7861CC1F5BB4EA0060090B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -371,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -413,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -424,7 +533,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 433YA7QJNE;
 				INFOPLIST_FILE = KO_QRCodeScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Korune.KO-QRCodeScanDemo";
@@ -437,7 +547,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 433YA7QJNE;
 				INFOPLIST_FILE = KO_QRCodeScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Korune.KO-QRCodeScanDemo";

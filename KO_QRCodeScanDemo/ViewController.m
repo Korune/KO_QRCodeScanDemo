@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "KO_QRCodeScanController.h"
 
-@interface ViewController ()
+@interface ViewController ()<KO_QRCodeScanControllerDelegate>
+
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel2;
+
+- (IBAction)styleOneButtonOnClicked:(id)sender;
+- (IBAction)styleTwoButtonOnClicked:(id)sender;
 
 @end
 
@@ -26,4 +33,29 @@
 }
 
 
+- (IBAction)styleOneButtonOnClicked:(id)sender {
+    
+    KO_QRCodeScanController *vc = [[KO_QRCodeScanController alloc] init];
+    vc.delegate = self;
+    vc.QRScanDisplayStyle = KO_QRScanDisplayStyleOne;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)styleTwoButtonOnClicked:(id)sender {
+    KO_QRCodeScanController *vc = [[KO_QRCodeScanController alloc] init];
+    vc.delegate = self;
+    vc.QRScanDisplayStyle = KO_QRScanDisplayStyleTwo;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)KO_QRCodeScanController:(KO_QRCodeScanController *)QRCodeScanController
+            didFinishedReadingQR:(NSString *)string
+{
+    if (QRCodeScanController.QRScanDisplayStyle == KO_QRScanDisplayStyleOne) {
+        self.resultLabel1.text = [NSString stringWithFormat:@"扫描结果为：%@", string];
+    } else if (QRCodeScanController.QRScanDisplayStyle == KO_QRScanDisplayStyleTwo) {
+        self.resultLabel2.text = [NSString stringWithFormat:@"扫描结果为：%@", string];
+    }
+    
+}
 @end
